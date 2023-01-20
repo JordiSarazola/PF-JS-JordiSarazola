@@ -1,0 +1,172 @@
+.form {
+  background-color: rgba(206, 169, 110, 0.644);
+}
+
+.ubicacion_mapa {
+  width: 85vw;
+}
+
+.carrito {
+  height: 40px;
+  width: 50px;
+}
+
+.carrito-style{
+  width: 25vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: all .4s ease;
+  background-color: rgb(144, 144, 255);
+  list-style: none;
+  padding: 10px;
+  overflow-y: scroll;
+  font-weight: 600;
+}
+
+.carrito-style.oculto{
+  right: -25vw;
+
+}
+#button-cancel{
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.prod-carrito {
+ list-style: none;
+}
+
+.boton-carrito {
+
+  background-color: red;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 10px;
+  width: fit-content;
+
+}
+.img-carrito {
+
+  aspect-ratio: 1/1;
+    object-fit: cover;
+  
+}
+
+
+
+.productos {
+  display: flex;
+  margin: 5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productos div {
+  text-align: center;
+}
+.productos div p {
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Lato";
+  margin-top: 10px;
+}
+
+.texto-destacado {
+  color: rgb(28, 133, 160);
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.font-inf {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Merriweather";
+  color: black;
+}
+
+.f-index {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.f-index-secund {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.fot {
+  font-family: "Montserrat";
+  background-color: rgba(226, 188, 128, 0.774);
+}
+.fot i {
+  font-size: 3rem;
+  margin-top: 50px;
+  text-decoration-color: black;
+}
+.fot h4 {
+  color: black;
+}
+.fot p {
+  color: black;
+  font-size: 1.2rem;
+}
+.fot ul {
+  list-style: none;
+  padding: 0px;
+}
+.fot ul li {
+  padding: 10px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: rgba(226, 188, 128, 0.774);
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+.navbar ul li {
+  padding: 20px;
+}
+.navbar ul li a {
+  color: rgb(24, 24, 24);
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.boton {
+  background-color: red;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Montserrat";
+  transition-duration: 0.5s;
+}
+.boton:hover {
+  color: red;
+  background-color: white;
+}
+
+.card_productos {
+  background-color: rgba(37, 115, 134, 0.473);
+  border: 3px black transparent;
+  border-radius: 20px;
+  margin: 20px 1px;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  justify-items: center;
+}
+.card_productos img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
